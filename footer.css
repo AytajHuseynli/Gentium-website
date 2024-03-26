@@ -1,0 +1,108 @@
+footer .talk {
+    background-color: #1b1b1b;
+    margin-top: 100px;
+    padding-block: 40px;
+}
+
+.talk .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.talk .icons {
+
+    display: flex;
+    gap: 8px;
+}
+
+.icons i {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #e9204f;
+    border-radius: 100%;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+}
+
+footer .title {
+
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.04px;
+}
+
+.contact .title {
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.contact .container {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    padding-block: 32px;
+    background-color: #161616;
+}
+
+.policy {
+    padding-block: 20px;
+}
+
+.policy .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy .text {
+    margin-top: 60px;
+    color: #747474;
+    font-family: "Trade Gothic Light", Sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+    margin: 0;
+}
+
+.policy .text a {
+    text-decoration: underline;
+    color: white;
+}
+
+.policy ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.policy ul li {
+    color: white;
+    font-family: "Trade Gothic Light", Sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+}

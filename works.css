@@ -1,0 +1,71 @@
+.works .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works .line {
+    background-color: #e9204f;
+    width: 48px;
+    height: 2px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.works .title {
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.works .text {
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    margin: 0;
+}
+.works button {
+    margin-top: 140px;
+}
+.works .category-list {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.works .item {
+filter: grayscale();
+}
+
+.works .product {
+    width: 540px;
+    height: 540px;
+    background-image: url("https://gentium.pixerex.com/wp-content/uploads/2019/01/03-min-1-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.works .woody {
+    width: 540px;
+    height: 540px;
+    background-image: url("https://gentium.pixerex.com/wp-content/uploads/2019/01/04-min-1-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.works .interior {
+    width: 540px;
+    height: 540px;
+    background-image: url("https://gentium.pixerex.com/wp-content/uploads/2019/01/07-min-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

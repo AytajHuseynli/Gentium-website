@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.749);
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header h2 > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: "AvantGarde Bold\\", sans-serif;
+  
+}
+header h2 {
+    margin: 0;
+}
+.navlist {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist a {
+    font-size: 20px;
+    font-weight: 700;
+}

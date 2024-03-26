@@ -1,0 +1,22 @@
+
+body {
+    background-color: #101010;
+    color: #ffffff;
+    font-family: "AvantGarde Bold", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}

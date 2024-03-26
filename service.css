@@ -1,0 +1,55 @@
+.services .line {
+    background-color: #e9204f;
+    width: 48px;
+    height: 2px;
+    margin-top: 140px;
+}
+
+.services .title {
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.services .text {
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.card-list {
+    display: flex;
+    /* flex-wrap: wrap; bu qirir */
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.card-list .card-service {
+    padding-block: 40px;
+    padding-inline: 32px;
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* flex basic esas olcu verir
+    flex grow 1 beraber olcude bolur */
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.card-service .title {
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+}
+
+.card-service .icon.icon-arrow-right {
+    color: #747474;
+    font-size: 24px;
+}
+
