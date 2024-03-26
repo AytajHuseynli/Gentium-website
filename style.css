@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-* {
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
@@ -19,4 +19,37 @@ body {
 .container {
     max-width: 1140px;
     margin: auto;
+}
+
+button {
+    display: inline-block;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e9204f;
+    padding: 20px 40px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+button::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #e9204f;
+    transition: 0.7s cubic-bezier(0.17, 0.67, 0, 1.01);
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 100%;
 }

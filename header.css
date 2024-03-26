@@ -6,24 +6,48 @@ header {
     background-color: rgba(0, 0, 0, 0.749);
 }
 
-header > .container {
+header>.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
 
-header h2 > a {
+header h2 .link {
     color: #ffffff;
     text-decoration: none;
     font-size: 44px;
     font-weight: 900;
     font-family: "AvantGarde Bold\\", sans-serif;
-  
 }
+
+.link.animated {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.link.animated:hover::before, .link.animated.active::before {
+    width: 20px;
+    background-color: #e9204f;
+    transition: 0.7s cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.link.animated::before {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ffffff;
+}
+
+
 header h2 {
     margin: 0;
 }
+
 .navlist {
     padding: 0;
     margin: 0;
